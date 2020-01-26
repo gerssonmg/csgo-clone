@@ -1,12 +1,41 @@
 .aside {
+  display: flex;
   flex: 1;
   max-width: 100px;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
 }
 
-.blue {
-  background-color: blue;
+.grey {
+  background-color: rgb(40, 42, 46);
+  -webkit-box-shadow: -2px 0 2px 5px rgba(28, 29, 32, 0.45);
+  box-shadow: -2px 0 2px 5px rgba(28, 29, 32, 0.45);
 }
 
 .green {
   background-color: green;
+}
+
+.icon img {
+  width: 54px;
+  height: 54px;
+  border-radius: 50%;
+}
+
+.icon {
+  display: flex;
+  width: 54px;
+  margin: 0 auto;
+  height: 54px;
+  border-radius: 50%;
+  justify-content: flex-end;
+}
+
+.icon.top {
+  margin-top: 10px;
+}
+
+.icon.button {
+  margin-bottom: 10px;
 }
