@@ -6,7 +6,7 @@ import './styles.css';
 
 export default function Play() {
 
-  const classBG = ["green", "grey"];
+  const classBG = ["grey-left", "grey-right"];
 
 
   return (
