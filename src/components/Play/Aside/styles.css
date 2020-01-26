@@ -1,0 +1,12 @@
+.aside {
+  flex: 1;
+  max-width: 100px;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.green {
+  background-color: green;
+}
